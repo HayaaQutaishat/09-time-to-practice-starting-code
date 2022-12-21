@@ -31,8 +31,12 @@ const QuoteDetail = () => {
     return <div className="centered">{error}</div>;
   }
 
-  if (!data) {
-    return <p>No Quote Found!</p>;
+  if (!data.text) {
+    return (
+      <div className="centered">
+        <h1>No Quote Found!</h1>
+      </div>
+    );
   }
 
   return (
