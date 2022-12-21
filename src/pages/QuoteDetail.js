@@ -11,11 +11,17 @@ const QuoteDetail = () => {
   ];
 
   const quote = DUMMY_QUOTES.find((quote) => quote.id === params.quoteId);
+  if (!quote) {
+    return (
+      <div className="centered">
+        <h2>No Quote Found!</h2>
+      </div>
+    );
+  }
 
   return (
     <Fragment>
       <HighlightedQuote text={quote.text} author={quote.author} />
-
       <Route path={`/quotes/${params.quoteId}/comments`}>
         <Comments />
       </Route>
