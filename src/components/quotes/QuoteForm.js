@@ -1,5 +1,5 @@
 import { Fragment, useRef } from "react";
-import { useHistory, Prompt } from "react-router-dom";
+import { Prompt } from "react-router-dom";
 import Card from "../UI/Card";
 import LoadingSpinner from "../UI/LoadingSpinner";
 import classes from "./QuoteForm.module.css";
@@ -8,12 +8,11 @@ import { useState } from "react";
 const QuoteForm = (props) => {
   const authorInputRef = useRef();
   const textInputRef = useRef();
-  const history = useHistory();
+
   const [isEntering, setIsEntering] = useState(false);
 
   function submitFormHandler(event) {
     event.preventDefault();
-    history.push("/quotes");
 
     const enteredAuthor = authorInputRef.current.value;
     const enteredText = textInputRef.current.value;
