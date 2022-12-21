@@ -1,9 +1,8 @@
 import QuoteForm from "../components/quotes/QuoteForm";
 import useHttp from "../hooks/use-http";
 import { addQuote } from "../lib/api";
-import LoadingSpinner from "../components/UI/LoadingSpinner";
 import { useHistory } from "react-router-dom";
-import { Fragment, useEffect } from "react";
+import { useEffect } from "react";
 
 const NewQuote = () => {
   const { sendRequest, status } = useHttp(addQuote);
@@ -21,9 +20,7 @@ const NewQuote = () => {
   };
 
   return (
-    <Fragment>
-      <QuoteForm onAddQuote={addQuoteHandler} />
-    </Fragment>
+    <QuoteForm onAddQuote={addQuoteHandler} isLoading={status === "pending"} />
   );
 };
 
