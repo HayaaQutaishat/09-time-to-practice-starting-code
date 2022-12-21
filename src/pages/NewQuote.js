@@ -9,10 +9,15 @@ const NewQuote = () => {
   const { sendRequest, status } = useHttp(addQuote);
   const history = useHistory();
 
+  useEffect(() => {
+    if (status === "completed") {
+      history.push("/quotes");
+    }
+  }, [history, status]);
+
   const addQuoteHandler = (quoteData) => {
     console.log(quoteData);
     sendRequest(quoteData);
-    history.push("/quotes");
   };
 
   return (
