@@ -10,7 +10,7 @@ import LoadingSpinner from "../components/UI/LoadingSpinner";
 const QuoteDetail = () => {
   const params = useParams();
   const match = useRouteMatch();
-  const { sendRequest, data, status } = useHttp(getSingleQuote, true);
+  const { sendRequest, data, status, error } = useHttp(getSingleQuote, true);
 
   // console.log(match);
 
@@ -26,6 +26,13 @@ const QuoteDetail = () => {
         <LoadingSpinner />
       </div>
     );
+  }
+  if (error) {
+    return <div className="centered">{error}</div>;
+  }
+
+  if (!data) {
+    return <p>No Quote Found!</p>;
   }
 
   return (
