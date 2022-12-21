@@ -7,8 +7,8 @@ import NotFound from "./pages/NotFound";
 
 function App() {
   return (
-    <Switch>
-      <Layout>
+    <Layout>
+      <Switch>
         <Route path="/" exact>
           <Redirect to="/quotes" />
         </Route>
@@ -21,11 +21,11 @@ function App() {
         <Route path="/new-quote">
           <NewQuote />
         </Route>
-        <Route path="*" exact>
+        <Route path="*">
           <NotFound />
         </Route>
-      </Layout>
-    </Switch>
+      </Switch>
+    </Layout>
   );
 }
 
