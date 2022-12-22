@@ -8,16 +8,23 @@ import LoadingSpinner from "../UI/LoadingSpinner";
 const NewCommentForm = (props) => {
   const commentTextRef = useRef();
   const params = useParams();
-  const { sendRequest, status } = useHttp(addComment);
+  const { sendRequest, status, error } = useHttp(addComment);
 
   const { quoteId } = params;
+  const { onDoneAddComment } = props;
+
+  useEffect(() => {
+    if (status === "completed" && !error) {
+      onDoneAddComment();
+    }
+  }, [status, error, onDoneAddComment]);
 
   const submitFormHandler = (event) => {
     event.preventDefault();
     const enteredComment = commentTextRef.current.value;
     // optional: Could validate here
     // send comment to server
-    sendRequest({ commentData: enteredComment, quoteId: quoteId });
+    sendRequest({ commentData: { text: enteredComment }, quoteId: quoteId });
   };
 
   return (
