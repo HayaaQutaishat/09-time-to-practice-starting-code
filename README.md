@@ -1,5 +1,13 @@
 # Multi-Pages-React-App
 
+Welcome to the Quotes React App!
+
+
+## Technologies used :
+
+-  React
+-  React Router version 5
+-  Redux DevTools
 
 
 ## Prerequisites :
