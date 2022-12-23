@@ -12,7 +12,7 @@ It has been built using HTML, CSS, Javascript, React and React Router. This appl
 
 ### Project purpose :
 
-This multi-page React app uses React Router to navigate between different pages. React Router allows us to define the routes for the application, and to specify which components should be rendered for each route.
+This multi-page React app uses React Router to navigate between different pages. React Router allows us to define the routes for the application, and to specify which components should be rendered for each route. Users can navigate between those pages by entering different paths manually in the URL or by simply clicking on the links shown in the navigation bar.
 
 
 ## Technologies used :
