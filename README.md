@@ -10,6 +10,11 @@ It has been built using HTML, CSS, Javascript, React and React Router. This appl
 <img width="1440" alt="Screen Shot 2022-12-23 at 12 57 33 PM" src="https://user-images.githubusercontent.com/95029840/209332602-ca1da96f-53d0-4beb-99c2-a266285703cd.png">
 
 
+### Project purpose :
+
+This multi-page React app uses React Router to navigate between different pages. React Router allows us to define the routes for the application, and to specify which components should be rendered for each route.
+
+
 ## Technologies used :
 
 -  React
