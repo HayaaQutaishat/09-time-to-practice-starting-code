@@ -36,10 +36,10 @@ I've also added a loading spinner to the application to provide visual feedback 
 ## React Router techniques used in this app:
 
 - Setting up React Router
-- Creating a basic routing setup
 - Navigating between different routes
 - Nested routes
 - URL query parameters
+- Access the dynamic parameters in the URL path of a route using useParams() hook
 
 
 
