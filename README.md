@@ -23,6 +23,17 @@ If users start filling the form and accidentally try to navigate away from the c
 <img width="1440" alt="Screen Shot 2022-12-23 at 1 57 15 PM" src="https://user-images.githubusercontent.com/95029840/209340457-ddb5589c-7d3b-49fd-b4f8-d0f3e133cc15.png">
 
 
+## Backend :
+
+
+In this application, I'm using Firebase to store and retrieve data for our application. It provides a simple, flexible, and reliable backend for our app, allowing us to focus on building a great user experience.
+
+In API JS file in the lib folder, you just need to insert your own Firebase URL instead of mine.
+
+Afterwards, you'll be able to use these functions to send requests to Firebase and use them in conjunction with the custom HTTP hookto reuse certain functionality across components.
+
+
+
 
 ## Technologies used :
 
