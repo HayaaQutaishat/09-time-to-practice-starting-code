@@ -2,6 +2,8 @@
 
 Welcome to the Quotes React App!
 
+<img width="1432" alt="Screen Shot 2022-12-23 at 12 55 48 PM" src="https://user-images.githubusercontent.com/95029840/209332386-a8bd30ba-8ee2-4016-aa74-6305c1192244.png">
+
 
 ## Technologies used :
 
