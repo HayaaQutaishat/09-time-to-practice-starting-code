@@ -22,7 +22,7 @@ If users start filling the form and accidentally try to navigate away from the c
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 1 57 15 PM" src="https://user-images.githubusercontent.com/95029840/209340457-ddb5589c-7d3b-49fd-b4f8-d0f3e133cc15.png">
 
-When the user done filling the form and clicks on "Add Quote" button, I've Implemented a programmatic (Imperative) navigation so that the user will be directly navigated to "All Quotes" page.
+When the user done filling the form and clicks on "Add Quote" button, I've Implemented a programmatic (Imperative) navigation so that the user will be directly navigated to different page or route, in this  case the user will benavigated to "All Quotes" page.
 
 
 I've also added a loading spinner to the application to provide visual feedback to the user while the request is being sent to the backend.
