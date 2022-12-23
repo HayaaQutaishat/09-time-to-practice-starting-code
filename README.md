@@ -3,7 +3,7 @@
 Welcome to the Quotes React App!
 
 This is a multi-page React app that allows users to view some quotes, sort the quotes, dive into specific quotes and add new quotes.
-It has been built using HTML, CSS, Javascript, React and React Router. This application is structured into a number of pages which are "All Quotes" page which is a page shows all the quotes were added by different users. "Add Quote" page for adding a brand new quote. And a "Quote Detailed" page, which is the page we go to when click on a signle quote.
+It has been built using HTML, CSS, Javascript, React and React Router. This application is structured into a number of pages which are "All Quotes" page which is a page shows all the quotes were added by different users. "Add Quote" page for adding a brand new quote. And a "Quote Detailed" page, which is the page we go to when click on a signle quote. This application uses Firebase as a backend for storing and retrieving data.
 
 
 
