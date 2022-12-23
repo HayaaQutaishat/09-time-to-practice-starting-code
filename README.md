@@ -14,6 +14,10 @@ It has been built using HTML, CSS, Javascript, React and React Router. This appl
 
 This multi-page React app uses React Router to navigate between different pages. React Router allows us to define the routes for the application, and to specify which components should be rendered for each route. Users can navigate between those pages by entering different paths manually in the URL or by simply clicking on the links shown in the navigation bar.
 
+Clicking on "Add a Quote" in the nav bar will load this page which is responsible for rendering a form that allows users to add a new quote.
+
+<img width="1440" alt="Screen Shot 2022-12-23 at 1 46 04 PM" src="https://user-images.githubusercontent.com/95029840/209338634-802bb780-8bae-4c1e-aa46-00fef0b09bdb.png">
+
 
 ## Technologies used :
 
