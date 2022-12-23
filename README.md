@@ -40,6 +40,8 @@ I've also added a loading spinner to the application to provide visual feedback 
 - Nested routes
 - URL query parameters
 - Accessing route parameters
+- Redirecting users
+
 
 
 
@@ -60,6 +62,7 @@ Afterwards, you'll be able to use these functions to send requests to Firebase a
 -  React
 -  React Router version 5
 -  Redux DevTools
+-  Lazy Loading
 
 
 ## Prerequisites :
