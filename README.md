@@ -2,6 +2,8 @@
 
 Welcome to the Quotes React App!
 
+This is a multi-page React app that allows users to view some quotes, sort the quotes, dive into specific quotes and add new quotes.
+It has been built using HTML, CSS, Javascript, React and React Router.
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 12 57 33 PM" src="https://user-images.githubusercontent.com/95029840/209332602-ca1da96f-53d0-4beb-99c2-a266285703cd.png">
 
