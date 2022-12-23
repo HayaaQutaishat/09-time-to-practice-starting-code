@@ -16,8 +16,12 @@ This multi-page React app uses React Router to navigate between different pages.
 
 Clicking on "Add a Quote" in the nav bar will load this page which is responsible for rendering a form that allows users to add a new quote. Clicking on that link will directly change the URL into domain/new-quote. 
 
-
 <img width="1440" alt="Screen Shot 2022-12-23 at 1 48 43 PM" src="https://user-images.githubusercontent.com/95029840/209338965-b9c838ae-93b0-4bf7-b3ea-64f2e370f0f6.png">
+
+If users start filling the form and accidentally swiped back or pressed the back button I Prevented any possibly unwanted route transitions with the "Prompt" Component.
+
+<img width="1440" alt="Screen Shot 2022-12-23 at 1 57 15 PM" src="https://user-images.githubusercontent.com/95029840/209340457-ddb5589c-7d3b-49fd-b4f8-d0f3e133cc15.png">
+
 
 
 
