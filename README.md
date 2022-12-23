@@ -14,6 +14,11 @@ It has been built using HTML, CSS, Javascript, React and React Router. This appl
 
 This multi-page React app uses React Router to navigate between different pages. React Router allows us to define the routes for the application, and to specify which components should be rendered for each route. Users can navigate between those pages by entering different paths manually in the URL or by simply clicking on the links shown in the navigation bar.
 
+Clicking on "view full screen" button will take the user to the "Quote detail" page. 
+
+<img width="1440" alt="Screen Shot 2022-12-23 at 5 13 04 PM" src="https://user-images.githubusercontent.com/95029840/209365767-a63ffa05-7e93-4c19-a9a5-bffa878d009b.png">
+
+
 Clicking on "Add a Quote" in the nav bar will load this page which is responsible for rendering a form that allows users to add a new quote. Clicking on that link will directly change the URL into domain/new-quote. 
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 1 48 43 PM" src="https://user-images.githubusercontent.com/95029840/209338965-b9c838ae-93b0-4bf7-b3ea-64f2e370f0f6.png">
@@ -26,6 +31,16 @@ When the user done filling the form and clicks on "Add Quote" button, I've Imple
 
 
 I've also added a loading spinner to the application to provide visual feedback to the user while the request is being sent to the backend.
+
+
+## React Router techniques used in this app:
+
+- Setting up React Router
+- Creating a basic routing setup
+- Navigating between different routes
+- Nested routes
+- URL query parameters
+
 
 
 ## Backend :
