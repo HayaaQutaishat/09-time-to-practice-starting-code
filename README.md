@@ -39,7 +39,7 @@ I've also added a loading spinner to the application to provide visual feedback 
 - Navigating between different routes
 - Nested routes
 - URL query parameters
-- Access the dynamic parameters in the URL path of a route using useParams() hook
+- Accessing route parameters
 
 
 
