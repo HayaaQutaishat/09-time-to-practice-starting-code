@@ -18,7 +18,7 @@ Clicking on "Add a Quote" in the nav bar will load this page which is responsibl
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 1 48 43 PM" src="https://user-images.githubusercontent.com/95029840/209338965-b9c838ae-93b0-4bf7-b3ea-64f2e370f0f6.png">
 
-If users start filling the form and accidentally try to navigate away from the current route I display a message in order to prevented any possibly unwanted route transitions.
+If users start filling the form and accidentally try to navigate away from the current route I display a message to them in order to prevented any possibly unwanted route transitions.
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 1 57 15 PM" src="https://user-images.githubusercontent.com/95029840/209340457-ddb5589c-7d3b-49fd-b4f8-d0f3e133cc15.png">
 
