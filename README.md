@@ -21,7 +21,8 @@ The main page displays a list of quotes added by users. I implemented a sorting 
 
 
 
-Clicking on "view full screen" button will take the user to the "Quote detail" page. 
+Clicking on "view full screen" button will take the user to the "Quote detail" page. In this page users can view and add comments on a specific quote.
+
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 5 13 04 PM" src="https://user-images.githubusercontent.com/95029840/209365767-a63ffa05-7e93-4c19-a9a5-bffa878d009b.png">
 
