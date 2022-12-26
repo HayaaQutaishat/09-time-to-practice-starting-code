@@ -42,6 +42,7 @@ I've also added a loading spinner to the application to provide visual feedback 
 - Accessing route parameters
 - Redirecting users
 - Handling dynamic routes
+- Implementing programmatic navigation
 
 
 
