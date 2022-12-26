@@ -14,6 +14,9 @@ It has been built using HTML, CSS, Javascript, React and React Router. This appl
 
 This multi-page React app uses React Router to navigate between different pages. React Router allows us to define the routes for the application, and to specify which components should be rendered for each route. Users can navigate between those pages by entering different paths manually in the URL or by simply clicking on the links shown in the navigation bar.
 
+
+The main page displays a list of quotes added by users. I implemented a sorting functionality in order to allow users to sort those quotes in ascending or descending order.
+
 Clicking on "view full screen" button will take the user to the "Quote detail" page. 
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 5 13 04 PM" src="https://user-images.githubusercontent.com/95029840/209365767-a63ffa05-7e93-4c19-a9a5-bffa878d009b.png">
