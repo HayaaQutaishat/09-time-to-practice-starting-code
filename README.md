@@ -21,10 +21,13 @@ The main page displays a list of quotes added by users. I implemented a sorting 
 
 
 
-Clicking on "view full screen" button will take the user to the "Quote detail" page. In this page users can view and add comments on a specific quote.
+Clicking on "view full screen" button will take the user to the "Quote detail" page. In this page users can also view and add comments on a specific quote.
 
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 5 13 04 PM" src="https://user-images.githubusercontent.com/95029840/209365767-a63ffa05-7e93-4c19-a9a5-bffa878d009b.png">
+
+<img width="1440" alt="Screen Shot 2022-12-26 at 7 34 12 PM" src="https://user-images.githubusercontent.com/95029840/209575584-116a2bbf-6c14-4e4d-a097-596f7ae82d8d.png">
+
 
 
 Clicking on "Add a Quote" in the nav bar will load this page which is responsible for rendering a form that allows users to add a new quote. Clicking on that link will directly change the URL into domain/new-quote. 
