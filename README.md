@@ -30,6 +30,9 @@ Clicking on "view full screen" button will take the user to the "Quote detail" p
 
 When the user submits the form, the comment is sent to the server where it is stored in a database. The server then sends a response back to the client, indicating that the comment has been successfully added and the comment will be added to the list of comments. 
 
+<img width="1440" alt="Screen Shot 2022-12-26 at 7 37 51 PM" src="https://user-images.githubusercontent.com/95029840/209636319-56223858-5d3d-49d2-8dc2-4d97b9d03d3f.png">
+
+
 Clicking on "Add a Quote" in the nav bar will load this page which is responsible for rendering a form that allows users to add a new quote. Clicking on that link will directly change the URL into domain/new-quote. 
 
 <img width="1440" alt="Screen Shot 2022-12-23 at 1 48 43 PM" src="https://user-images.githubusercontent.com/95029840/209338965-b9c838ae-93b0-4bf7-b3ea-64f2e370f0f6.png">
